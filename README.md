@@ -8,6 +8,8 @@ useful references:
 * [pyg github website](https://github.com/pyg-team/pytorch_geometric)
 
 ## installation
-Since `conda install` may cause some error (probably because of version conflict) you need to download the needed wheels in advance. (from this link to find suitable wheels based on Pytorch and cuda version: [**links**](https://data.pyg.org/whl/) 
+Since `conda install` may cause some error (probably because of version conflict) you need to download the needed wheels in advance. (from this link to find suitable wheels based on Pytorch and cuda version: [**links**](https://data.pyg.org/whl/) .
+
+After all the wheels are installed, we can use `pip install pytorch_geometric` to install pytorch_geometric 
 
 This repo has wheels suitable for pytorch 1.12 and cuda 11.3
